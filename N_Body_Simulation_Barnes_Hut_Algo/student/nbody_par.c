@@ -3,6 +3,7 @@
 #include<mpi.h>
 #include<stdio.h>
 
+
 void acceleration_check(Node* node){
 	for (int j = 0; j < node->leaf.count; ++j) {
 		printf("%f %f \n",node->leaf.vx[j],node->leaf.vy[j]);
